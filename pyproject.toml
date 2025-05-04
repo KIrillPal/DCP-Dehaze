@@ -1,17 +1,15 @@
-[project]
-name = "dcp-dehaze"
+[tool.poetry]
+name = "dcp_dehaze"
 version = "0.1.0"
 description = "A student project dedicated to dehazing of images using channel-wise model and Dark Channel Prior (DCP)"
-authors = [
-    {name = "KirillPal",email = "kirpall@ya.ru"}
-]
+authors = ["KirillPal kirpall@ya.ru"]
 readme = "README.md"
-requires-python = ">=3.10"
-dependencies = [
-    "numpy (>=2.2.5,<3.0.0)",
-    "opencv-python[all] (>=4.11.0.86,<5.0.0.0)"
+packages = [
+    { include = "dcp_dehaze", from = "src" }
 ]
 
+[tool.poetry.dependencies]
+python = "^3.8"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
