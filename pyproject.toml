@@ -9,7 +9,15 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
+pathlib = "^1.0.1"
+numpy = "^2.2.5"
+opencv-python = {extras = ["all"], version = "^4.11.0.86"}
+matplotlib = "^3.10.1"
+tqdm = "^4.67.1"
+pillow = "^11.2.1"
+scikit-image = "^0.25.2"
+scipy = "^1.15.2"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
