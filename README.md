@@ -17,8 +17,8 @@ A python module dedicated to dehaze images using channel-wise model and Dark Cha
 pip install poetry
 
 # 2. Clone this repo
-git clone https://github.com/yourusername/dcp-dehaze.git
-cd dcp-dehaze
+git clone https://github.com/KIrillPal/DCP-Dehaze.git
+cd DCP-Dehaze
 
 # 3. Install dependencies
 poetry install
