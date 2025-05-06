@@ -2,7 +2,7 @@
 name = "dcp_dehaze"
 version = "0.1.0"
 description = "A student project dedicated to dehazing of images using channel-wise model and Dark Channel Prior (DCP)"
-authors = ["Kirill Kondrashov kirpall@ya.ru"]
+authors = ["Kirill Kondrashov <kirpall@ya.ru>"]
 readme = "README.md"
 packages = [
     { include = "dcp_dehaze", from = "src" }
